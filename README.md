@@ -6,7 +6,7 @@ This can be used to create a game like Flashback (1992) or Prince of Persia 1 & 
 ## Z Index:
 ![](https://github.com/guilhermefelipecgs/z-index_demo/blob/master/z-index.png)
 
-## Bitmask:
+## Bitmask (This is a very rudimentary example):
 ![](https://github.com/guilhermefelipecgs/z-index_demo/blob/master/bitmask.png)
 
 ## Collision
