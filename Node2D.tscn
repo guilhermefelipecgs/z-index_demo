@@ -1,0 +1,174 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://AUTO_TILE_TEST.png" type="Texture" id=1]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+points = PoolVector2Array( 0, 0, 8, 0, 8, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+
+points = PoolVector2Array( 0, 0, 8, 0, 8, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+
+points = PoolVector2Array( 0, 0, 8, 0, 8, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+
+points = PoolVector2Array( 0, 13.04, 16, 13.04, 16, 13.04, 0, 13.04 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+
+points = PoolVector2Array( 0, 13.04, 16, 13.04, 16, 13.04, 0, 13.04 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+
+points = PoolVector2Array( 0, 13.04, 16, 13.04, 16, 13.04, 0, 13.04 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+
+points = PoolVector2Array( 8, 0, 16, 0, 16, 16, 8, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+
+points = PoolVector2Array( 8, 16, 8, 0, 16, 0, 16, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+
+points = PoolVector2Array( 0, 16, 0, 0, 16, 0, 16, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+
+points = PoolVector2Array( 8, 0, 16, 0, 16, 16, 8, 16 )
+
+[sub_resource type="TileSet" id=13]
+
+0/name = "AUTO_TILE_TEST.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 128, 64 )
+0/tile_mode = 1
+0/autotile/bitmask_mode = 2
+0/autotile/bitmask_flags = [ Vector2( 0, 1 ), 319, Vector2( 1, 0 ), 216, Vector2( 1, 1 ), 155, Vector2( 1, 2 ), 403, Vector2( 1, 3 ), 50, Vector2( 2, 3 ), 57, Vector2( 3, 0 ), 16, Vector2( 3, 1 ), 16, Vector2( 3, 3 ), 56, Vector2( 4, 0 ), 16, Vector2( 4, 1 ), 16, Vector2( 4, 3 ), 60, Vector2( 5, 0 ), 432, Vector2( 5, 1 ), 182, Vector2( 5, 2 ), 438, Vector2( 5, 3 ), 26, Vector2( 6, 0 ), 504, Vector2( 6, 1 ), 127, Vector2( 7, 1 ), 63 ]
+0/autotile/icon_coordinate = Vector2( 5, 2 )
+0/autotile/tile_size = Vector2( 16, 16 )
+0/autotile/spacing = 0
+0/autotile/occluder_map = [  ]
+0/autotile/navpoly_map = [  ]
+0/autotile/priority_map = [ Vector3( 3, 0, 3 ) ]
+0/autotile/z_index_map = [ Vector3( 5, 1, 1 ), Vector3( 5, 2, 1 ), Vector3( 5, 3, 1 ) ]
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [ {
+"autotile_coord": Vector2( 1, 1 ),
+"one_way": false,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 2 ),
+"one_way": false,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 3 ),
+"one_way": false,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 1 ),
+"one_way": false,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 1 ),
+"one_way": false,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 2, 3 ),
+"one_way": false,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 3, 3 ),
+"one_way": false,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 4, 3 ),
+"one_way": false,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 3 ),
+"one_way": false,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 2 ),
+"one_way": false,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 7, 1 ),
+"one_way": false,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 1 ),
+"one_way": false,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+
+[sub_resource type="CircleShape2D" id=14]
+
+radius = 13.9328
+
+[sub_resource type="CapsuleShape2D" id=15]
+
+radius = 2.9931
+height = 21.7397
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 0, -384 )
+polygon = PoolVector2Array( 0, 448, 64, 448, 64, 480, 192, 480, 192, 448, 288, 448, 288, 512, 416, 512, 416, 528, 0, 528 )
+color = Color( 0.294118, 0.411765, 0.184314, 1 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 13 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 131072, 0, 5, 131073, 0, 6, 131074, 0, 6, 131075, 0, 6, 131076, 0, 1, 131083, 0, 5, 131084, 0, 6, 131085, 0, 6, 131086, 0, 6, 131087, 0, 6, 131088, 0, 6, 131089, 0, 6, 131090, 0, 1, 196608, 0, 65541, 196609, 0, 65543, 196610, 0, 65543, 196611, 0, 65536, 196612, 0, 65537, 196619, 0, 65541, 196620, 0, 65542, 196621, 0, 65543, 196622, 0, 65543, 196623, 0, 65543, 196624, 0, 65543, 196625, 0, 65536, 196626, 0, 65537, 262148, 0, 131073, 262155, 0, 131077, 262162, 0, 131073, 327684, 0, 196609, 327685, 0, 196610, 327686, 0, 196611, 327687, 0, 196611, 327688, 0, 196611, 327689, 0, 196611, 327690, 0, 196612, 327691, 0, 196613, 327698, 0, 131073, 393234, 0, 131073, 458770, 0, 196609, 458771, 0, 196610, 458772, 0, 196611, 458773, 0, 196611, 458774, 0, 196611, 458775, 0, 196611, 458776, 0, 196611, 458777, 0, 196610 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 145.12, 55.2804 )
+script = ExtResource( 2 )
+
+[node name="icon" type="Sprite" parent="KinematicBody2D"]
+scale = Vector2( 0.437782, 0.437782 )
+texture = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+shape = SubResource( 14 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="KinematicBody2D"]
+position = Vector2( -0.016098, 11.1124 )
+rotation = -1.5708
+shape = SubResource( 15 )
+
