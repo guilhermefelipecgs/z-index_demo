@@ -9,6 +9,9 @@ This can be used to create a game like Flashback (1992) or Prince of Persia 1 & 
 ## Bitmask:
 ![](https://github.com/guilhermefelipecgs/z-index_demo/blob/master/bitmask.png)
 
+## Paint Tile:
+![](https://github.com/guilhermefelipecgs/z-index_demo/blob/master/Peek%2007-12-2018%2022-44.gif)
+
 ## Result:
 ![](https://github.com/guilhermefelipecgs/z-index_demo/blob/master/Peek%2007-12-2018%2022-11.gif)
 
