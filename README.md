@@ -2,4 +2,4 @@
 Demo Z-Index for AutoTile
 
 
-![](Peek 07-12-2018 22-11.gif)
+![](https://github.com/guilhermefelipecgs/z-index_demo/blob/master/Peek%2007-12-2018%2022-11.gif)
